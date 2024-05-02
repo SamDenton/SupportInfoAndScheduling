@@ -1,0 +1,717 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #ffffff;
+    color: #f4f4f4;
+}
+
+body, .card, .search-container, table, th, td, #heading, #searchBar {
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+#pageContainer {
+    background: #1a1a1a;
+    width: 99%;
+    margin: 80px auto 5px auto;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0px -70px 8px 2px rgba(0, 0, 0, 0.3), 0px 5px 8px 2px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+    transition: box-shadow 0.3s ease-in-out, color 0.3s ease-in-out;
+
+}
+
+/* #pageContainer:hover {
+    box-shadow: 35px -33px 4px 38px rgba(0, 0, 0, 0.4);
+    transform: scale(1.001);
+} */
+
+h1 {
+    color: #f4f4f4;
+    padding: 20px 0;
+    margin: 0;
+}
+
+h2 {
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+h3 {
+    font-size: 0.9em !important;
+}
+
+p {
+    font-size: .75em;
+}
+
+#heading {
+    position: fixed;
+    background-color: #333;
+    width: 99%;
+    top: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    height: 77.6px;
+    z-index: 3;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+#toggleTheme {
+    position: fixed;
+    padding-bottom: 20px;
+    padding-top: 9px;
+    top: 25px;
+    left: 50px;
+}
+
+.toggle {
+    display: inline-block;
+    width: 150px;
+    height: 34px;
+    background-color: #428bca;
+    border-radius: 34px;
+    transition: all 0.4s ease-in-out;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+
+.toggle::after {
+    content: "";
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    width: 30px;
+    height: 30px;
+    background-color: #ccc;
+    border-radius: 50%;
+    transition: all 0.4s ease-in-out;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #428bca;
+    color: #f4f4f4;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #444;
+}
+
+#toggleStaffSchedule {
+    position: fixed;
+    top: 25px;
+    right: 380px;
+}
+
+.toggle.hiddenCard::after {
+    transform: translateX(116px);
+}
+
+#toggleSupportInfo {
+    position: fixed;
+    top: 25px;
+    right: 205px;
+}
+
+#toggleCustomerInfo {
+    position: fixed;
+    top: 25px;
+    right: 30px;
+}
+
+.card-container {
+    height: calc(100vh - 100px);
+    overflow-y: auto;
+    margin-top: 5px;
+    padding-top: 5px;
+}
+
+.card {
+    background-color: #2a2a2a;
+    padding: 20px;
+    margin: 40px auto;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 90%;
+    /* max-height: 650px; */
+    z-index: 1;
+    position: relative;
+}
+
+.card:hover {
+    background-color: #2f2f2f;
+    transform: scaleX(1.01);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    z-index: 2;
+}
+
+table {
+    position: relative;
+    width: 100%;
+    margin: 20px 0;
+    border-collapse: collapse;
+    font-size: 0.8em;
+}
+
+table, th, td {
+    border: 1px solid #444;
+}
+
+th, td {
+    padding: 12px;
+    text-align: center;
+}
+
+thead th, tbody th {
+    background-color: #555;
+    color: #fff;
+}
+
+tbody th {
+    background-color: #555;
+}
+
+#weekControls {
+    margin: 0px;
+    position: absolute;
+    top: 30px;
+    right: 50px;
+    z-index: 3;
+}
+
+#editScheduleContainer{
+    margin: 0px;
+    position: absolute;
+    top: 80px;
+    right: 80px;
+    z-index: 3;
+}
+
+#weekSwitchButton .toggle::after {
+    padding-top: 5px;
+}
+
+.slots-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    max-height: 200px;
+    overflow: hidden;
+    margin: 0px;
+    padding: 0px;
+}
+
+.slot {
+    text-align: center;
+    color: transparent;
+    padding: 0px;
+    background-color: none;
+    border-radius: 5px;
+    margin: 2px auto;
+    white-space: normal;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    width: 70px;
+    position: relative;
+    z-index: 1;
+}
+
+.slot.Install {
+    color: white;
+    background-color: #4CAF50;
+}
+
+.slot.Maintenance {
+    color: white;
+    background-color: #FF9800;
+}
+
+.slot.Setup {
+    color: white;
+    background-color: #F44336;
+}
+
+.slot.Training {
+    color: white;
+    background-color: #f65ef6;
+}
+
+.slot.Appointment {
+    color: white;
+    background-color: #3643f4;
+}
+
+.Install:hover {
+    z-index: 2;
+    transform: scaleY(1.01);
+    overflow: visible;
+    background-color: #66c27a;
+    white-space: normal;
+}
+
+.Maintenance:hover {
+    z-index: 2;
+    transform: scaleY(1.01);
+    overflow: visible;
+    background-color: #ffab40;
+    white-space: normal;
+}
+
+.Setup:hover {
+    z-index: 2;
+    transform: scaleY(1.01);
+    overflow: visible;
+    background-color: #f6685e;
+    white-space: normal;
+}
+
+.Training:hover {
+    z-index: 2;
+    transform: scaleY(1.01);
+    overflow: visible;
+    background-color: #f56df5;
+    white-space: normal;
+}
+
+.Appointment:hover {
+    z-index: 2;
+    transform: scaleY(1.01);
+    overflow: visible;
+    background-color: #5560f3;
+    white-space: normal;
+}
+
+
+.slot-details {
+    padding: 2px;
+    display: none;
+    text-align: left;
+    font-size: 0.8em;
+}
+
+/* .slot:hover {
+    color: white;
+} */
+
+.slot:hover .slot-details {
+    display: block;
+}
+
+.color-key {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.key-item {
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+}
+
+.key-color {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.key-color.Install {
+    background-color: #4CAF50;
+}
+
+.key-color.Maintenance {
+    background-color: #FF9800;
+}
+
+.key-color.Setup {
+    background-color: #F44336;
+}
+
+.key-color.Training {
+    background-color: #f65ef6;
+}
+
+.key-color.Appointment {
+    background-color: #3643f4;
+}
+
+.key-label {
+    font-size: 0.9em;
+}
+
+.custTableContainer {
+    min-height: 200px;
+    max-height: 450px;
+    overflow-y: scroll;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #2a2a2a;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #202020;
+}
+
+tbody tr:hover {
+    background-color: #666;
+    cursor: pointer;
+}
+
+#filters {
+    margin: 20px;
+    text-align: left;
+}
+
+#rowFilters, #columnFilters {
+    font-size: 0.75em;
+    display: none;
+}
+
+#filters label {
+    margin-right: 15px;
+    vertical-align: top;
+}
+
+#bookingModal {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+}
+
+#modalContent {
+    background: #2a2a2a;
+    padding: 20px;
+    border-radius: 5px;
+    width: 50%;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+
+#bookingForm label {
+    display: block;
+    margin-top: 10px;
+}
+
+#bookingForm input, #bookingForm textarea {
+    width: 98%;
+    padding: 8px;
+    margin-top: 5px;
+}
+
+#searchContainer {
+    text-align: left;
+    padding: 0px 20px 10px 20px;
+}
+
+#searchInput {
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #333;
+    border: 1px solid #444;
+    color: #f4f4f4;
+    border-radius: 5px;
+}
+
+#searchInput::placeholder {
+    color: #ccc;
+}
+
+#searchInput:focus {
+    outline: none;
+    border-color: #555;
+}
+
+.EditToggle {
+    position: absolute;
+    top: 30px;
+    right: 20px;
+}
+
+.delete-cell {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.delete-cell button {
+    /* Style your button here */
+    padding: 5px 10px;
+    border: none;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#addRecordBtn {
+    /* Style your button here */
+    padding: 5px 10px;
+    margin-left: 10px;
+    border: none;
+    background-color: #4CAF50; /* Green */
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1720px) {
+
+    #staffSchedule table td:last-child,
+    #staffSchedule table th:last-child {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 1550px) {
+    table {
+        font-size: 0.7em;
+    }
+}
+
+@media screen and (min-width: 1470px) {
+
+    .card-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .card {
+        width: 45%;
+        margin: 10px;
+    }
+}
+
+@media screen and (max-width: 1470px) {
+
+    .card {
+        width: 90%;
+        margin: 10px auto;
+    }
+
+    table, th, td {
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    h1 {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    #toggleStaffSchedule {
+        display: none;
+    }
+
+    #toggleSupportInfo {
+        display: none;
+    }
+
+    #toggleCustomerInfo {
+        display: none;
+    }
+
+    table {
+        font-size: 0.75em;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    #staffSchedule table th:nth-last-child(-n+2),
+    #staffSchedule table td:nth-last-child(-n+2),
+    #staffSchedule table th:first-child,
+    #staffSchedule table td:first-child
+     {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 475px) {
+    table {
+        font-size: 0.65em;
+    }
+
+    .card {
+        padding-left: 1px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    #staffSchedule table td:first-child {
+        display: none;
+    }
+}
+
+/* For Chromium-based browsers */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #1a1a1a; /* Track color */
+}
+
+::-webkit-scrollbar-thumb {
+    background: #555; /* Thumb color */
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #666; /* Thumb color on hover */
+}
+
+/* For Firefox */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #555 #1a1a1a; /* Thumb and track color */
+}
+
+/* Light mode styles */
+
+.light-theme #pageContainer {
+    background: #ebebeb !important;
+    color: #333;
+}
+
+.light-theme h1 {
+    color: #333;
+    /*background-color: #428bca;*/
+}
+
+.light-theme #heading {
+    background-color: #428bca;
+}
+
+.light-theme table {
+    border: 1px solid #ccc;
+}
+
+.light-theme table, .light-theme th, .light-theme td {
+    border: 1px solid #aaa;
+}
+
+.light-theme th, .light-theme td {
+    background-color: #fff;
+    color: #333;
+}
+
+.light-theme thead th, .light-theme tbody th {
+    background-color: #428bca;
+}
+
+.light-theme tbody th {
+    background-color: #428bca;
+}
+
+.light-theme td:not(:first-child):hover {
+    background-color: #ddd;
+    cursor: pointer;
+}
+
+.light-theme tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.light-theme tbody tr:nth-child(odd) {
+    background-color: #efefef;
+}
+
+.light-theme #filters {
+    color: #333;
+}
+
+.light-theme #toggle {
+    background-color: #555;
+}
+
+.light-theme button {
+    background-color: #555;
+}
+
+.light-theme #toggleTheme::after {
+    transform: translateX(116px);
+}
+
+.light-theme #rowFilters, .light-theme #columnFilters {
+    background-color: #eee;
+}
+
+.light-theme .card {
+    background-color: #fff;
+    color: #333;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+}
+
+.light-theme #searchInput {
+    background-color: #fff;
+    border-color: #428bca;
+    color: #333;
+}
+
+.light-theme .card:hover {
+    background-color: #f9f9f9;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.1);
+}
+
+.light-theme .search-container {
+    background-color: #eee;
+}
+
+.light-theme #searchBar {
+    background-color: #fff;
+    color: #333;
+}
+
+
+.light-theme #modalContent {
+    background-color: #fff;
+    color: #333;
+}
+
+.light-theme #searchBar::placeholder {
+    color: #666;
+}
+
+.light-theme ::-webkit-scrollbar-track {
+    background: #f4f4f4; /* Track color */
+    border-radius: 5px;
+}
+
+.light-theme ::-webkit-scrollbar-thumb {
+    background: #c9c9c9; /* Thumb color */
+}
+
+.light-theme ::-webkit-scrollbar-thumb:hover {
+    background: #666; /* Thumb color on hover */
+}
+
+/* For Firefox */
+.light-theme * {
+    scrollbar-color: #c9c9c9 #f4f4f4; /* Thumb and track color */
+}

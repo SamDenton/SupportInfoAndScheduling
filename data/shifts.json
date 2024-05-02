@@ -1,0 +1,1269 @@
+[
+    {
+        "weekDate": "25\/03\/24",
+        "shifts": {
+            "Monday": {
+                "Early": "Jack",
+                "Late": "Dom",
+                "Support": "Sam De, Matt",
+                "Bookings": [
+                    {
+                        "bookingId": "cb03-a599-431e-9848-c9bf-3447",
+                        "startTime": "11:00",
+                        "duration": 120,
+                        "assignedTo": "Sam Da",
+                        "type": "Install",
+                        "customer": "Rennie Grove",
+                        "notes": "PED already installed"
+                    }
+                ],
+                "Office": "All",
+                "Notes": "Tom Holiday"
+            },
+            "Tuesday": {
+                "Early": "Jack",
+                "Late": "Dom",
+                "Support": "Sam De, Matt",
+                "Bookings": [
+                    {
+                        "bookingId": "cb03-a599-431e-9848-c9bf-3547",
+                        "startTime": "14:00",
+                        "duration": 60,
+                        "assignedTo": "Dom",
+                        "type": "Admin",
+                        "customer": "Rennie Grove",
+                        "notes": "PED already installed"
+                    }
+                ],
+                "Office": "All",
+                "Notes": "Tom Holiday"
+            },
+            "Wednesday": {
+                "Early": "Jack",
+                "Late": "Dom",
+                "Support": "Sam De, Matt",
+                "Bookings": [
+                    {
+                        "bookingId": "cb03-a599-431e-9848-c9bf-3448",
+                        "startTime": "09:00",
+                        "duration": 120,
+                        "assignedTo": "Sam Da",
+                        "type": "Maintenance",
+                        "customer": "Rennie Grove",
+                        "notes": "PED already installed"
+                    },
+                    {
+                        "bookingId": "cb03-a599-431e-9348-c9bf-3447",
+                        "startTime": "10:00",
+                        "duration": 60,
+                        "assignedTo": "Dom",
+                        "type": "Install",
+                        "customer": "Rennie Grove",
+                        "notes": "PED already installed"
+                    }
+                ],
+                "Office": "All",
+                "Notes": "Tom Holiday"
+            },
+            "Thursday": {
+                "Early": "Jack",
+                "Late": "Dom",
+                "Support": "Sam De, Matt",
+                "Bookings": [
+                    {
+                        "bookingId": "cb03-a599-431e-9828-c9bf-3446",
+                        "startTime": "09:00",
+                        "duration": 120,
+                        "assignedTo": "Sam Da",
+                        "type": "Admin",
+                        "customer": "Rennie Grove",
+                        "notes": "PED already installed"
+                    },
+                    {
+                        "bookingId": "cb03-a599-431e-9348-c9bf-3447",
+                        "startTime": "12:00",
+                        "duration": 120,
+                        "assignedTo": "Sam De",
+                        "type": "Appointment",
+                        "customer": "Rennie Grove",
+                        "notes": "PED already installed"
+                    },
+                    {
+                        "bookingId": "cb03-a599-431e-9648-c9bf-3447",
+                        "startTime": "14:00",
+                        "duration": 120,
+                        "assignedTo": "Jamie",
+                        "type": "Install",
+                        "customer": "Rennie Grove",
+                        "notes": "PED already installed"
+                    }
+                ],
+                "Office": "All",
+                "Notes": "Tom Holiday"
+            },
+            "Friday": {
+                "Early": "Jack",
+                "Late": "Dom",
+                "Support": "Sam De, Matt",
+                "Bookings": [
+                    {
+                        "bookingId": "cb03-a499-431e-9848-c9bf-3447",
+                        "startTime": "10:00",
+                        "duration": 30,
+                        "assignedTo": "Sam Da",
+                        "type": "Maintenance",
+                        "customer": "Rennie Grove",
+                        "notes": "PED already installed"
+                    },
+                    {
+                        "bookingId": "cb03-a599-491e-9848-c9bf-3447",
+                        "startTime": "10:30",
+                        "duration": 45,
+                        "assignedTo": "Sam De",
+                        "type": "Install",
+                        "customer": "Rennie Grove",
+                        "notes": "PED already installed"
+                    },
+                    {
+                        "bookingId": "cb03-a599-231e-9848-c9bf-3447",
+                        "startTime": "12:00",
+                        "duration": 55,
+                        "assignedTo": "Jack",
+                        "type": "Admin",
+                        "customer": "Rennie Grove",
+                        "notes": "PED already installed"
+                    },
+                    {
+                        "bookingId": "cb03-a599-431e-9868-c9bf-3447",
+                        "startTime": "14:00",
+                        "duration": 100,
+                        "assignedTo": "Matt",
+                        "type": "Install",
+                        "customer": "Rennie Grove",
+                        "notes": "PED already installed"
+                    }
+                ],
+                "Office": "All",
+                "Notes": "Tom Holiday"
+            },
+            "Saturday": {
+                "Early": "Jack",
+                "Late": "Dom",
+                "Support": "Sam De",
+                "Bookings": [],
+                "Office": "All",
+                "Notes": "Tom Holiday"
+            },
+            "Sunday": {
+                "Early": "Jack",
+                "Late": "Dom",
+                "Support": "Sam De, Matt",
+                "Bookings": [
+                    {
+                        "bookingId": "cb03-a599-431e-9846-c9bf-3447",
+                        "startTime": "09:00",
+                        "duration": 120,
+                        "assignedTo": "Sam Da",
+                        "type": "Install",
+                        "customer": "Rennie Grove",
+                        "notes": "PED already installed"
+                    }
+                ],
+                "Office": "All",
+                "Notes": "Tom Holiday"
+            }
+        }
+    },
+    {
+        "weekDate": "01\/04\/24",
+        "shifts": {
+            "Monday": {
+                "Early": "Jack",
+                "Late": "Dom",
+                "Support": "Sam De, Matt",
+                "Bookings": [
+                    {
+                        "bookingId": "cb03-a599-431e-9838-c9bf-3447",
+                        "startTime": "10:00",
+                        "duration": 120,
+                        "assignedTo": "Sam Da",
+                        "type": "Install",
+                        "customer": "Rennie Grove",
+                        "notes": "PED already installed"
+                    }
+                ],
+                "Office": "All",
+                "Notes": "Tom Holiday"
+            },
+            "Tuesday": {
+                "Early": "Jack",
+                "Late": "Dom",
+                "Support": "Sam De, Matt",
+                "Bookings": [
+                    {
+                        "bookingId": "cb03-a599-431e-9841-c9bf-3447",
+                        "startTime": "14:00",
+                        "duration": 60,
+                        "assignedTo": "Dom",
+                        "type": "Admin",
+                        "customer": "Rennie Grove",
+                        "notes": "PED already installed"
+                    }
+                ],
+                "Office": "All",
+                "Notes": "Tom Holiday"
+            },
+            "Wednesday": {
+                "Early": "Jack",
+                "Late": "Dom",
+                "Support": "Sam De, Matt",
+                "Bookings": [
+                    {
+                        "bookingId": "c403-a599-431e-9848-c9bf-3447",
+                        "startTime": "09:00",
+                        "duration": 120,
+                        "assignedTo": "Sam Da",
+                        "type": "Maintenance",
+                        "customer": "Rennie Grove",
+                        "notes": "PED already installed"
+                    },
+                    {
+                        "bookingId": "cb23-a599-431e-9848-c9bf-3447",
+                        "startTime": "10:00",
+                        "duration": 60,
+                        "assignedTo": "Dom",
+                        "type": "Install",
+                        "customer": "Rennie Grove",
+                        "notes": "PED already installed"
+                    }
+                ],
+                "Office": "All",
+                "Notes": "Tom Holiday"
+            },
+            "Thursday": {
+                "Early": "Jack",
+                "Late": "Dom",
+                "Support": "Sam De, Matt",
+                "Bookings": [
+                    {
+                        "bookingId": "cb03-a559-431e-9848-c9bf-3447",
+                        "startTime": "09:00",
+                        "duration": 120,
+                        "assignedTo": "Sam Da",
+                        "type": "Admin",
+                        "customer": "Rennie Grove",
+                        "notes": "PED already installed"
+                    },
+                    {
+                        "bookingId": "cb03-5599-431e-9848-c9bf-3447",
+                        "startTime": "12:00",
+                        "duration": 120,
+                        "assignedTo": "Sam De",
+                        "type": "Training",
+                        "customer": "Rennie Grove",
+                        "notes": "PED already installed"
+                    },
+                    {
+                        "bookingId": "cb03-a595-431e-9848-c9bf-3447",
+                        "startTime": "14:00",
+                        "duration": 120,
+                        "assignedTo": "Jamie",
+                        "type": "Install",
+                        "customer": "Rennie Grove",
+                        "notes": "PED already installed"
+                    }
+                ],
+                "Office": "All",
+                "Notes": "Tom Holiday"
+            },
+            "Friday": {
+                "Early": "Jack",
+                "Late": "Dom",
+                "Support": "Sam De, Matt",
+                "Bookings": [],
+                "Office": "All",
+                "Notes": "Tom Holiday"
+            },
+            "Saturday": {
+                "Early": "Jack",
+                "Late": "Dom",
+                "Support": "Sam De, Matt",
+                "Bookings": [
+                    {
+                        "bookingId": "cb03-a599-431e-9848-59bf-3447",
+                        "startTime": "10:00",
+                        "duration": 30,
+                        "assignedTo": "Sam Da",
+                        "type": "Maintenance",
+                        "customer": "Rennie Grove",
+                        "notes": "PED already installed"
+                    },
+                    {
+                        "bookingId": "cb03-a599-431e-9848-c9bf-3455",
+                        "startTime": "10:30",
+                        "duration": 45,
+                        "assignedTo": "Sam De",
+                        "type": "Appointment",
+                        "customer": "Rennie Grove",
+                        "notes": "PED already installed"
+                    },
+                    {
+                        "bookingId": "cb03-a599-431e-9848-c9bf-3454",
+                        "startTime": "12:00",
+                        "duration": 55,
+                        "assignedTo": "Jack",
+                        "type": "Admin",
+                        "customer": "Rennie Grove",
+                        "notes": "PED already installed"
+                    },
+                    {
+                        "bookingId": "cb03-a599-431e-9848-c9bf-3453",
+                        "startTime": "14:00",
+                        "duration": 100,
+                        "assignedTo": "Matt",
+                        "type": "Install",
+                        "customer": "Rennie Grove",
+                        "notes": "PED already installed"
+                    }
+                ],
+                "Office": "All",
+                "Notes": "Tom Holiday"
+            },
+            "Sunday": {
+                "Early": "Jack",
+                "Late": "Dom",
+                "Support": "Sam De, Matt",
+                "Bookings": [
+                    {
+                        "bookingId": "cb03-a599-431e-9848-c9bf-3452",
+                        "startTime": "09:00",
+                        "duration": 120,
+                        "assignedTo": "Sam Da",
+                        "type": "Install",
+                        "customer": "Rennie Grove",
+                        "notes": "PED already installed"
+                    }
+                ],
+                "Office": "All",
+                "Notes": "Tom Holiday"
+            }
+        }
+    },
+    {
+        "weekDate": "08\/04\/24",
+        "shifts": {
+            "Monday": {
+                "Early": "Jack",
+                "Late": "Matt",
+                "Support": "Sam De, Dom",
+                "Bookings": [
+                    {
+                        "bookingId": "cb03-a599-431e-9848-c9bf-3451",
+                        "startTime": "10:00",
+                        "duration": 60,
+                        "assignedTo": "Emily",
+                        "type": "Setup",
+                        "customer": "Prospect",
+                        "notes": "Prospect Lottery Setup Via Teams"
+                    },
+                    {
+                        "bookingId": "cb03-a599-431e-9848-c9bf-3433",
+                        "startTime": "11:00",
+                        "duration": 60,
+                        "assignedTo": "Nick",
+                        "type": "Training",
+                        "customer": "Ampleforth",
+                        "notes": ""
+                    }
+                ],
+                "Office": "All",
+                "Notes": "Tom and Sam Da Holiday"
+            },
+            "Tuesday": {
+                "Early": "Jack",
+                "Late": "Matt",
+                "Support": "Dom, Matt",
+                "Bookings": [
+                    {
+                        "bookingId": "cb03-a599-431e-9848-c9bf-3432",
+                        "startTime": "14:00",
+                        "duration": 60,
+                        "assignedTo": "Emily",
+                        "type": "Setup",
+                        "customer": "Rowans",
+                        "notes": "Online consultancy session"
+                    }
+                ],
+                "Office": "All",
+                "Notes": "Tom and Sam Da Holiday"
+            },
+            "Wednesday": {
+                "Early": "Dom",
+                "Late": "Matt",
+                "Support": "Sam De, Matt",
+                "Bookings": [
+                    {
+                        "bookingId": "cb03-a599-431e-9848-c9bf-3431",
+                        "startTime": "16:00",
+                        "duration": 60,
+                        "assignedTo": "Emily",
+                        "type": "Training",
+                        "customer": "Cornwater Evergreens",
+                        "notes": "Gift Aid claim training"
+                    }
+                ],
+                "Office": "All",
+                "Notes": "Tom and Sam Da Holiday"
+            },
+            "Thursday": {
+                "Early": "Dom",
+                "Late": "Sam De",
+                "Support": "Sam De, Dom",
+                "Bookings": [
+                    {
+                        "bookingId": "cb03-a599-431e-9848-c9bf-3480",
+                        "startTime": "14:00",
+                        "duration": 60,
+                        "assignedTo": "Emily",
+                        "type": "Training",
+                        "customer": "BAVS",
+                        "notes": "BHO Introduction"
+                    }
+                ],
+                "Office": "Closed",
+                "Notes": "Tom and Sam Da Holiday, Matt College"
+            },
+            "Friday": {
+                "Early": "Dom",
+                "Late": "Sam De",
+                "Support": "Sam De, Dom",
+                "Bookings": [
+                    {
+                        "bookingId": "cb03-a599-431e-9848-c9bf-3490",
+                        "startTime": "10:00",
+                        "duration": 60,
+                        "assignedTo": "Emily",
+                        "type": "Training",
+                        "customer": "Antur Waunfawr",
+                        "notes": ""
+                    },
+                    {
+                        "bookingId": "cb03-a599-431e-9848-c9bf-3481",
+                        "startTime": "15:00",
+                        "duration": 60,
+                        "assignedTo": "Emily",
+                        "type": "Training",
+                        "customer": "Ripon walled garden",
+                        "notes": "Barcoding"
+                    }
+                ],
+                "Office": "Closed",
+                "Notes": "Tom and Sam Da Holiday"
+            },
+            "Saturday": {
+                "Early": "Emily",
+                "Late": "Emily",
+                "Support": "Emily",
+                "Bookings": [],
+                "Office": "Closed",
+                "Notes": ""
+            },
+            "Sunday": {
+                "Early": "Jack",
+                "Late": "Jack",
+                "Support": "Jack",
+                "Bookings": [],
+                "Office": "Closed",
+                "Notes": ""
+            }
+        }
+    },
+    {
+        "weekDate": "15\/04\/24",
+        "shifts": {
+            "Monday": {
+                "Early": "Jack",
+                "Late": "Matt",
+                "Support": "Sam De, Dom",
+                "Bookings": [
+                    {
+                        "bookingId": "cb03-a599-431e-9848-c9bf-3482",
+                        "startTime": "11:00",
+                        "duration": 60,
+                        "assignedTo": "Emily",
+                        "type": "Training",
+                        "customer": "St Cuthberts",
+                        "notes": "Gift Aid batches"
+                    },
+                    {
+                        "bookingId": "cb03-a599-431e-9848-c9bf-3483",
+                        "startTime": "15:00",
+                        "duration": 60,
+                        "assignedTo": "Emily",
+                        "type": "Training",
+                        "customer": "CCPA",
+                        "notes": "Till review and accessing reports"
+                    }
+                ],
+                "Office": "All",
+                "Notes": "Tom Holiday"
+            },
+            "Tuesday": {
+                "Early": "Jack",
+                "Late": "Matt",
+                "Support": "Dom, Matt",
+                "Bookings": [
+                    {
+                        "bookingId": "cb03-a599-431e-9848-c9bf-3484",
+                        "startTime": "09:00",
+                        "duration": 90,
+                        "assignedTo": "Jack, SDa",
+                        "type": "Install",
+                        "customer": "TGTW",
+                        "notes": "Azure Move"
+                    },
+                    {
+                        "bookingId": "cb03-a599-431e-9848-c9bf-3485",
+                        "startTime": "11:00",
+                        "duration": 60,
+                        "assignedTo": "Emily",
+                        "type": "Training",
+                        "customer": "BAVS",
+                        "notes": "Via Teams"
+                    },
+                    {
+                        "bookingId": "cb03-a599-431e-9848-c9bf-3486",
+                        "startTime": "14:00",
+                        "duration": 150,
+                        "assignedTo": "Sam Denton",
+                        "type": "Install",
+                        "customer": "Age Uk Wiltshire",
+                        "notes": "Standard 190E till bundle, Marlborough Site"
+                    }
+                ],
+                "Office": "All",
+                "Notes": "Tom Holiday"
+            },
+            "Wednesday": {
+                "Early": "Dom",
+                "Late": "Matt",
+                "Support": "Sam De, Matt",
+                "Bookings": [
+                    {
+                        "bookingId": "e201-2feb-461c-ad0d-b7e8-c9c8",
+                        "startTime": "10:30",
+                        "duration": 60,
+                        "assignedTo": "Sam Denton",
+                        "type": "Install",
+                        "customer": "RGP",
+                        "notes": "testing"
+                    }
+                ],
+                "Office": "All",
+                "Notes": "Sam Da, Tom Holiday"
+            },
+            "Thursday": {
+                "Early": "Dom",
+                "Late": "Sam De",
+                "Support": "Sam De, Dom",
+                "Bookings": [
+                    {
+                        "bookingId": "cb03-a599-431e-9848-c9bf-3496",
+                        "startTime": "09:00",
+                        "duration": 60,
+                        "assignedTo": "Sam Dawson",
+                        "type": "Maintenance",
+                        "customer": "TGTW",
+                        "notes": "Sort out reseed"
+                    }
+                ],
+                "Office": "Closed",
+                "Notes": "Matt College"
+            },
+            "Friday": {
+                "Early": "Dom",
+                "Late": "Sam De",
+                "Support": "Sam De, Dom",
+                "Bookings": [
+                    {
+                        "bookingId": "cb03-a599-431e-9848-c9bf-3488",
+                        "startTime": "10:00",
+                        "duration": 60,
+                        "assignedTo": "Emily",
+                        "type": "Training",
+                        "customer": "Antur Waunfawr",
+                        "notes": ""
+                    }
+                ],
+                "Office": "Closed",
+                "Notes": ""
+            },
+            "Saturday": {
+                "Early": "Jack",
+                "Late": "Jack",
+                "Support": "Jack",
+                "Bookings": [],
+                "Office": "Closed",
+                "Notes": ""
+            },
+            "Sunday": {
+                "Early": "Sam Da",
+                "Late": "Sam Da",
+                "Support": "Sam Da",
+                "Bookings": [],
+                "Office": "Closed",
+                "Notes": ""
+            }
+        }
+    },
+    {
+        "weekDate": "22\/04\/24",
+        "shifts": {
+            "Monday": {
+                "Early": "Jack",
+                "Late": "Matt",
+                "Support": "Sam De, Dom",
+                "Bookings": [],
+                "Office": "All",
+                "Notes": ""
+            },
+            "Tuesday": {
+                "Early": "Jack",
+                "Late": "Matt",
+                "Support": "Dom, Matt",
+                "Bookings": [],
+                "Office": "All",
+                "Notes": ""
+            },
+            "Wednesday": {
+                "Early": "Dom",
+                "Late": "Matt",
+                "Support": "Sam De, Matt",
+                "Bookings": [],
+                "Office": "All",
+                "Notes": ""
+            },
+            "Thursday": {
+                "Early": "Dom",
+                "Late": "Sam De",
+                "Support": "Sam Da, Dom",
+                "Bookings": [
+                    {
+                        "bookingId": "cb03-a599-431e-9848-c9bf-3493",
+                        "startTime": "14:00",
+                        "duration": 60,
+                        "assignedTo": "Emily",
+                        "type": "Training",
+                        "customer": "BAVS",
+                        "notes": "Via Teams. End of year Gift Aid batch"
+                    },
+                    {
+                        "bookingId": "6a8f-a42c-4e60-a23c-cb16-f87a",
+                        "startTime": "10:00",
+                        "duration": 60,
+                        "assignedTo": "Emily",
+                        "type": "Training",
+                        "customer": "South Kent Mind",
+                        "notes": "Gift Aid settings"
+                    },
+                    {
+                        "bookingId": "3ae6-9ceb-4bfe-bfba-07a7-e936",
+                        "startTime": "12:00",
+                        "duration": 60,
+                        "assignedTo": "Emily",
+                        "type": "Training",
+                        "customer": "BAVS",
+                        "notes": "Gift Aid settings"
+                    }
+                ],
+                "Office": "All",
+                "Notes": "Matt College"
+            },
+            "Friday": {
+                "Early": "Dom",
+                "Late": "Sam De",
+                "Support": "Sam De, Dom",
+                "Bookings": [
+                    {
+                        "bookingId": "cb03-a599-431e-9848-c9bf-3907",
+                        "startTime": "10:00",
+                        "duration": 60,
+                        "assignedTo": "Emily",
+                        "type": "Training",
+                        "customer": "Antur Waunfawr",
+                        "notes": ""
+                    },
+                    {
+                        "bookingId": "cb28-365a-4caf-8fe7-d10e-8f4d",
+                        "startTime": "10:00",
+                        "duration": 30,
+                        "assignedTo": "Matt",
+                        "type": "Install",
+                        "customer": " Love Oliver",
+                        "notes": "PED Install"
+                    }
+                ],
+                "Office": "All",
+                "Notes": "Jack Holiday"
+            },
+            "Saturday": {
+                "Early": "Sam De",
+                "Late": "Sam De",
+                "Support": "Sam De",
+                "Bookings": [],
+                "Office": "Closed",
+                "Notes": ""
+            },
+            "Sunday": {
+                "Early": "Sam Da",
+                "Late": "Sam Da",
+                "Support": "Sam Da",
+                "Bookings": [],
+                "Office": "Closed",
+                "Notes": ""
+            }
+        }
+    },
+    {
+        "weekDate": "29\/04\/24",
+        "shifts": {
+            "Monday": {
+                "Early": "Jack",
+                "Late": "Sam De",
+                "Support": "Sam De, Dom",
+                "Bookings": [
+                    {
+                        "bookingId": "45a2-321b-4c59-9f7f-073e-cbfb",
+                        "startTime": "14:00",
+                        "duration": 60,
+                        "assignedTo": "Emily",
+                        "type": "Training",
+                        "customer": "Too Good to Waste",
+                        "notes": "Browser head office introduction"
+                    }
+                ],
+                "Office": "All",
+                "Notes": "Matt Holiday"
+            },
+            "Tuesday": {
+                "Early": "Jack",
+                "Late": "Matt",
+                "Support": "Dom, Matt",
+                "Bookings": [
+                    {
+                        "bookingId": "f382-9007-4a09-b7f5-4762-feb9",
+                        "startTime": "14:00",
+                        "duration": 60,
+                        "assignedTo": "Emily",
+                        "type": "Training",
+                        "customer": "BAVS",
+                        "notes": "Via Teams"
+                    }
+                ],
+                "Office": "All",
+                "Notes": ""
+            },
+            "Wednesday": {
+                "Early": "Dom",
+                "Late": "Matt",
+                "Support": "Sam De, Matt",
+                "Bookings": [],
+                "Office": "All",
+                "Notes": ""
+            },
+            "Thursday": {
+                "Early": "Dom",
+                "Late": "Sam De",
+                "Support": "Sam Da, Dom",
+                "Bookings": [
+                    {
+                        "bookingId": "85e8-4959-4a82-9b4f-857e-7182",
+                        "startTime": "14:00",
+                        "duration": 60,
+                        "assignedTo": "Emily",
+                        "type": "Training",
+                        "customer": "BAVS",
+                        "notes": "Via Teams"
+                    },
+                    {
+                        "bookingId": "1c2d-3d4e-4e65-8fd2-75d9-0b7d",
+                        "startTime": "14:00",
+                        "duration": 60,
+                        "assignedTo": "Nick Walker",
+                        "type": "Setup",
+                        "customer": "Love Oliver",
+                        "notes": " Xero export to Kudos setup"
+                    }
+                ],
+                "Office": "All",
+                "Notes": "Matt College"
+            },
+            "Friday": {
+                "Early": "Dom",
+                "Late": "Sam De",
+                "Support": "Sam De, Dom",
+                "Bookings": [
+                    {
+                        "bookingId": "33ff-5a09-48b9-9810-9cb4-a0ff",
+                        "startTime": "10:00",
+                        "duration": 60,
+                        "assignedTo": "Emily",
+                        "type": "Training",
+                        "customer": "Antur Waunfawr",
+                        "notes": "Via Teams"
+                    }
+                ],
+                "Office": "All",
+                "Notes": "Sam Da Holiday"
+            },
+            "Saturday": {
+                "Early": "Sam De",
+                "Late": "Sam De",
+                "Support": "Sam De",
+                "Bookings": [],
+                "Office": "Closed",
+                "Notes": ""
+            },
+            "Sunday": {
+                "Early": "Jack",
+                "Late": "Jack",
+                "Support": "Jack",
+                "Bookings": [],
+                "Office": "Closed",
+                "Notes": ""
+            }
+        }
+    },
+    {
+        "weekDate": "06\/05\/24",
+        "shifts": {
+            "Monday": {
+                "Early": "Jack",
+                "Late": "Matt",
+                "Support": "Sam De, Dom",
+                "Bookings": [],
+                "Office": "All",
+                "Notes": ""
+            },
+            "Tuesday": {
+                "Early": "Jack",
+                "Late": "Matt",
+                "Support": "Dom, Matt",
+                "Bookings": [],
+                "Office": "All",
+                "Notes": ""
+            },
+            "Wednesday": {
+                "Early": "Dom",
+                "Late": "Matt",
+                "Support": "Sam De, Matt",
+                "Bookings": [],
+                "Office": "All",
+                "Notes": ""
+            },
+            "Thursday": {
+                "Early": "Dom",
+                "Late": "Sam De",
+                "Support": "Sam Da, Dom",
+                "Bookings": [
+                    {
+                        "bookingId": "cb03-a599-431e-9848-c9bf-3493",
+                        "startTime": "14:00",
+                        "duration": 60,
+                        "assignedTo": "Emily",
+                        "type": "Training",
+                        "customer": "BAVS",
+                        "notes": "Via Teams. End of year Gift Aid batch"
+                    },
+                    {
+                        "bookingId": "6a8f-a42c-4e60-a23c-cb16-f87a",
+                        "startTime": "10:00",
+                        "duration": 60,
+                        "assignedTo": "Emily",
+                        "type": "Training",
+                        "customer": "South Kent Mind",
+                        "notes": "Gift Aid settings"
+                    },
+                    {
+                        "bookingId": "3ae6-9ceb-4bfe-bfba-07a7-e936",
+                        "startTime": "12:00",
+                        "duration": 60,
+                        "assignedTo": "Emily",
+                        "type": "Training",
+                        "customer": "BAVS",
+                        "notes": "Gift Aid settings"
+                    }
+                ],
+                "Office": "All",
+                "Notes": "Matt College"
+            },
+            "Friday": {
+                "Early": "Dom",
+                "Late": "Sam De",
+                "Support": "Sam De, Dom",
+                "Bookings": [
+                    {
+                        "bookingId": "cb03-a599-431e-9848-c9bf-3907",
+                        "startTime": "10:00",
+                        "duration": 60,
+                        "assignedTo": "Emily",
+                        "type": "Training",
+                        "customer": "Antur Waunfawr",
+                        "notes": ""
+                    },
+                    {
+                        "bookingId": "cb28-365a-4caf-8fe7-d10e-8f4d",
+                        "startTime": "10:00",
+                        "duration": 30,
+                        "assignedTo": "Matt",
+                        "type": "Install",
+                        "customer": " Love Oliver",
+                        "notes": "PED Install"
+                    }
+                ],
+                "Office": "All",
+                "Notes": "Jack Holiday"
+            },
+            "Saturday": {
+                "Early": "Sam De",
+                "Late": "Sam De",
+                "Support": "Sam De",
+                "Bookings": [],
+                "Office": "Closed",
+                "Notes": ""
+            },
+            "Sunday": {
+                "Early": "Sam Da",
+                "Late": "Sam Da",
+                "Support": "Sam Da",
+                "Bookings": [],
+                "Office": "Closed",
+                "Notes": ""
+            }
+        }
+    },
+    {
+        "weekDate": "13\/05\/24",
+        "shifts": {
+            "Monday": {
+                "Early": "Jack",
+                "Late": "Matt",
+                "Support": "Sam De, Dom",
+                "Bookings": [],
+                "Office": "All",
+                "Notes": ""
+            },
+            "Tuesday": {
+                "Early": "Jack",
+                "Late": "Matt",
+                "Support": "Dom, Matt",
+                "Bookings": [],
+                "Office": "All",
+                "Notes": ""
+            },
+            "Wednesday": {
+                "Early": "Dom",
+                "Late": "Matt",
+                "Support": "Sam De, Matt",
+                "Bookings": [],
+                "Office": "All",
+                "Notes": ""
+            },
+            "Thursday": {
+                "Early": "Dom",
+                "Late": "Sam De",
+                "Support": "Sam Da, Dom",
+                "Bookings": [
+                    {
+                        "bookingId": "cb03-a599-431e-9848-c9bf-3493",
+                        "startTime": "14:00",
+                        "duration": 60,
+                        "assignedTo": "Emily",
+                        "type": "Training",
+                        "customer": "BAVS",
+                        "notes": "Via Teams. End of year Gift Aid batch"
+                    },
+                    {
+                        "bookingId": "6a8f-a42c-4e60-a23c-cb16-f87a",
+                        "startTime": "10:00",
+                        "duration": 60,
+                        "assignedTo": "Emily",
+                        "type": "Training",
+                        "customer": "South Kent Mind",
+                        "notes": "Gift Aid settings"
+                    },
+                    {
+                        "bookingId": "3ae6-9ceb-4bfe-bfba-07a7-e936",
+                        "startTime": "12:00",
+                        "duration": 60,
+                        "assignedTo": "Emily",
+                        "type": "Training",
+                        "customer": "BAVS",
+                        "notes": "Gift Aid settings"
+                    }
+                ],
+                "Office": "All",
+                "Notes": "Matt College"
+            },
+            "Friday": {
+                "Early": "Dom",
+                "Late": "Sam De",
+                "Support": "Sam De, Dom",
+                "Bookings": [
+                    {
+                        "bookingId": "cb03-a599-431e-9848-c9bf-3907",
+                        "startTime": "10:00",
+                        "duration": 60,
+                        "assignedTo": "Emily",
+                        "type": "Training",
+                        "customer": "Antur Waunfawr",
+                        "notes": ""
+                    },
+                    {
+                        "bookingId": "cb28-365a-4caf-8fe7-d10e-8f4d",
+                        "startTime": "10:00",
+                        "duration": 30,
+                        "assignedTo": "Matt",
+                        "type": "Install",
+                        "customer": " Love Oliver",
+                        "notes": "PED Install"
+                    }
+                ],
+                "Office": "All",
+                "Notes": "Jack Holiday"
+            },
+            "Saturday": {
+                "Early": "Sam De",
+                "Late": "Sam De",
+                "Support": "Sam De",
+                "Bookings": [],
+                "Office": "Closed",
+                "Notes": ""
+            },
+            "Sunday": {
+                "Early": "Sam Da",
+                "Late": "Sam Da",
+                "Support": "Sam Da",
+                "Bookings": [],
+                "Office": "Closed",
+                "Notes": ""
+            }
+        }
+    },
+    {
+        "weekDate": "20\/05\/24",
+        "shifts": {
+            "Monday": {
+                "Early": "Jack",
+                "Late": "Matt",
+                "Support": "Sam De, Dom",
+                "Bookings": [],
+                "Office": "All",
+                "Notes": ""
+            },
+            "Tuesday": {
+                "Early": "Jack",
+                "Late": "Matt",
+                "Support": "Dom, Matt",
+                "Bookings": [],
+                "Office": "All",
+                "Notes": ""
+            },
+            "Wednesday": {
+                "Early": "Dom",
+                "Late": "Matt",
+                "Support": "Sam De, Matt",
+                "Bookings": [],
+                "Office": "All",
+                "Notes": ""
+            },
+            "Thursday": {
+                "Early": "Dom",
+                "Late": "Sam De",
+                "Support": "Sam Da, Dom",
+                "Bookings": [
+                    {
+                        "bookingId": "cb03-a599-431e-9848-c9bf-3493",
+                        "startTime": "14:00",
+                        "duration": 60,
+                        "assignedTo": "Emily",
+                        "type": "Training",
+                        "customer": "BAVS",
+                        "notes": "Via Teams. End of year Gift Aid batch"
+                    },
+                    {
+                        "bookingId": "6a8f-a42c-4e60-a23c-cb16-f87a",
+                        "startTime": "10:00",
+                        "duration": 60,
+                        "assignedTo": "Emily",
+                        "type": "Training",
+                        "customer": "South Kent Mind",
+                        "notes": "Gift Aid settings"
+                    },
+                    {
+                        "bookingId": "3ae6-9ceb-4bfe-bfba-07a7-e936",
+                        "startTime": "12:00",
+                        "duration": 60,
+                        "assignedTo": "Emily",
+                        "type": "Training",
+                        "customer": "BAVS",
+                        "notes": "Gift Aid settings"
+                    }
+                ],
+                "Office": "All",
+                "Notes": "Matt College"
+            },
+            "Friday": {
+                "Early": "Dom",
+                "Late": "Sam De",
+                "Support": "Sam De, Dom",
+                "Bookings": [
+                    {
+                        "bookingId": "cb03-a599-431e-9848-c9bf-3907",
+                        "startTime": "10:00",
+                        "duration": 60,
+                        "assignedTo": "Emily",
+                        "type": "Training",
+                        "customer": "Antur Waunfawr",
+                        "notes": ""
+                    },
+                    {
+                        "bookingId": "cb28-365a-4caf-8fe7-d10e-8f4d",
+                        "startTime": "10:00",
+                        "duration": 30,
+                        "assignedTo": "Matt",
+                        "type": "Install",
+                        "customer": " Love Oliver",
+                        "notes": "PED Install"
+                    }
+                ],
+                "Office": "All",
+                "Notes": "Jack Holiday"
+            },
+            "Saturday": {
+                "Early": "Sam De",
+                "Late": "Sam De",
+                "Support": "Sam De",
+                "Bookings": [],
+                "Office": "Closed",
+                "Notes": ""
+            },
+            "Sunday": {
+                "Early": "Sam Da",
+                "Late": "Sam Da",
+                "Support": "Sam Da",
+                "Bookings": [],
+                "Office": "Closed",
+                "Notes": ""
+            }
+        }
+    },
+    {
+        "weekDate": "27\/05\/24",
+        "shifts": {
+            "Monday": {
+                "Early": "Jack",
+                "Late": "Matt",
+                "Support": "Sam De, Dom",
+                "Bookings": [],
+                "Office": "All",
+                "Notes": ""
+            },
+            "Tuesday": {
+                "Early": "Jack",
+                "Late": "Matt",
+                "Support": "Dom, Matt",
+                "Bookings": [],
+                "Office": "All",
+                "Notes": ""
+            },
+            "Wednesday": {
+                "Early": "Dom",
+                "Late": "Matt",
+                "Support": "Sam De, Matt",
+                "Bookings": [],
+                "Office": "All",
+                "Notes": ""
+            },
+            "Thursday": {
+                "Early": "Dom",
+                "Late": "Sam De",
+                "Support": "Sam Da, Dom",
+                "Bookings": [
+                    {
+                        "bookingId": "cb03-a599-431e-9848-c9bf-3493",
+                        "startTime": "14:00",
+                        "duration": 60,
+                        "assignedTo": "Emily",
+                        "type": "Training",
+                        "customer": "BAVS",
+                        "notes": "Via Teams. End of year Gift Aid batch"
+                    },
+                    {
+                        "bookingId": "6a8f-a42c-4e60-a23c-cb16-f87a",
+                        "startTime": "10:00",
+                        "duration": 60,
+                        "assignedTo": "Emily",
+                        "type": "Training",
+                        "customer": "South Kent Mind",
+                        "notes": "Gift Aid settings"
+                    },
+                    {
+                        "bookingId": "3ae6-9ceb-4bfe-bfba-07a7-e936",
+                        "startTime": "12:00",
+                        "duration": 60,
+                        "assignedTo": "Emily",
+                        "type": "Training",
+                        "customer": "BAVS",
+                        "notes": "Gift Aid settings"
+                    }
+                ],
+                "Office": "All",
+                "Notes": "Matt College"
+            },
+            "Friday": {
+                "Early": "Dom",
+                "Late": "Sam De",
+                "Support": "Sam De, Dom",
+                "Bookings": [
+                    {
+                        "bookingId": "cb03-a599-431e-9848-c9bf-3907",
+                        "startTime": "10:00",
+                        "duration": 60,
+                        "assignedTo": "Emily",
+                        "type": "Training",
+                        "customer": "Antur Waunfawr",
+                        "notes": ""
+                    },
+                    {
+                        "bookingId": "cb28-365a-4caf-8fe7-d10e-8f4d",
+                        "startTime": "10:00",
+                        "duration": 30,
+                        "assignedTo": "Matt",
+                        "type": "Install",
+                        "customer": " Love Oliver",
+                        "notes": "PED Install"
+                    }
+                ],
+                "Office": "All",
+                "Notes": "Jack Holiday"
+            },
+            "Saturday": {
+                "Early": "Sam De",
+                "Late": "Sam De",
+                "Support": "Sam De",
+                "Bookings": [],
+                "Office": "Closed",
+                "Notes": ""
+            },
+            "Sunday": {
+                "Early": "Sam Da",
+                "Late": "Sam Da",
+                "Support": "Sam Da",
+                "Bookings": [],
+                "Office": "Closed",
+                "Notes": ""
+            }
+        }
+    }
+]

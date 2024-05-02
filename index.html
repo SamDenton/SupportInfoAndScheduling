@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Support Shift Schedule</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+	<div id="pageContainer">
+		<div id="heading">
+			<button class="toggle" id="toggleTheme">Switch Theme</button>
+			<h1>Support Info</h1>
+			<button class="toggle" id="toggleStaffSchedule">Schedule</button>
+			<button class="toggle" id="toggleSupportInfo">Numbers</button>
+			<button class="toggle" id="toggleCustomerInfo">Customer Info</button>
+		</div>
+		<div class="card-container">
+			<div class="card" id="staffSchedule">
+				<h2>Schedule</h2>
+				<div id="weekControls">
+					<button id="prevWeekButton">Previous Week</button>
+					<button id="currentWeekButton">Current Week</button>
+					<button id="nextWeekButton">Next Week</button>
+				</div>
+				<div id="editScheduleContainer">
+					<button id="addBooking">Add Booking</button>
+					<input type="checkbox" id="toggleScheduleDeletions"> Delete / Edit
+				</div>
+				<div id="filters">
+					<h3>Shift Type Filters (click here)</h3>
+					<div id="rowFilters"></div>
+					<h3>Day Filters (click here)</h3>
+					<div id="columnFilters"></div>
+				</div>
+				<table id="shiftTable">
+					<thead>
+					</thead>
+					<tbody>
+						<!-- Dynamic -->
+					</tbody>
+				</table>
+				<div class="color-key">
+					<div class="key-item">
+						<span class="key-color Install"></span>
+						<span class="key-label">Install</span>
+					</div>
+					<div class="key-item">
+						<span class="key-color Maintenance"></span>
+						<span class="key-label">Maintenance</span>
+					</div>
+					<div class="key-item">
+						<span class="key-color Setup"></span>
+						<span class="key-label">Setup</span>
+					</div>
+					<div class="key-item">
+						<span class="key-color Training"></span>
+						<span class="key-label">Training</span>
+					</div>
+					<div class="key-item">
+						<span class="key-color Appointment"></span>
+						<span class="key-label">Appointment</span>
+					</div>
+				</div>				
+			</div>
+			<div class="card" id="supportInfo">
+				<h2>Numbers</h2>
+				<div id="info">
+					<table id="infoTable">
+						<thead>
+							<tr>
+								<th></th>
+								<th>Support Numbers:</th>
+								<th>Main Number:</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Defaut Number:</td>
+								<td>01364 701470</td>
+								<td>01364 701450</td>
+							</tr>
+							<tr>
+								<td>Premium Number:</td>
+								<td>01364 701479</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<h2>Sites</h2>
+				<div id="info">
+					<table id="infoTable">
+						<thead>
+							<tr>
+								<th>Support Sites:</th>
+								<th>Description:</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td><a href="https://kudos.ftpstream.com/v3/login" target="_blank">FTP Site</a></td>
+								<td>A site we host that allows storage and retrieval of files, used for support work, customer updates and more.</td>
+							</tr>
+							<tr>
+								<td><a href="https://panel.maytech.net/" target="_blank">Maytech</a></td>
+								<td>We store some customer info on Maytech, including usernames and passwords for customer updaters.</td>
+							</tr>
+							<tr>
+								<td><a href="https://app.smartsheet.com/" target="_blank">Smartsheets</a></td>
+								<td>The sales and project teams use this for tracking projects and customer communications.  We use it to track support time/RPS time.</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+			<div class="card" id="customerInfo">
+				<h2>Customer Info</h2>
+				<div class="EditToggle">
+					<input type="checkbox" id="editToggle"> Enable Editing
+				</div>
+				<div id="searchContainer">
+					<input type="text" id="searchInput" placeholder="Search...">
+				</div>	
+				<p>Customer Data Updated 28/03/2024</p>
+				<div class="custTableContainer">		
+					<table id="custTable">
+						<thead>
+							<tr>
+								<th>Current Name</th>
+								<th>Head Office</th>
+								<th>Alternative Names</th>
+								<th>Sat Support</th>
+							</tr>
+						</thead>
+						<tbody>
+							<!-- Dynamic -->
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Booking Modal -->
+	<div id="bookingModal" style="display:none;">
+		<div id="modalContent">
+			<h2>Add New Booking</h2>
+			<form id="bookingForm">
+				
+				<label for="weekDay">Day of the Week:</label>
+				<select id="weekDay" name="weekDay">
+					<option value="Monday">Monday</option>
+					<option value="Tuesday">Tuesday</option>
+					<option value="Wednesday">Wednesday</option>
+					<option value="Thursday">Thursday</option>
+					<option value="Friday">Friday</option>
+					<option value="Saturday">Saturday</option>
+					<option value="Sunday">Sunday</option>
+				</select>
+
+				<label for="startTime">Start Time:</label>
+				<input type="time" id="startTime" name="startTime" min="09:00" max="17:00" required>
+				
+				<label for="duration">Duration (minutes):</label>
+				<input type="number" id="duration" name="duration" min="15" max="420" step="15" required>
+				
+				<label for="assignedTo">Assigned To:</label>
+				<input type="text" id="assignedTo" name="assignedTo">
+				
+				<label for="type">Type:</label>
+				<select id="type" name="type">
+					<option value="Install">Install</option>
+					<option value="Maintenance">Maintenance</option>
+					<option value="Setup">Setup</option>
+					<option value="Training">Training</option>
+					<option value="Appointment">Appointment</option>
+				</select>
+				
+				<label for="customer">Customer:</label>
+				<input type="text" id="customer" name="customer">
+				
+				<label for="notes">Notes:</label>
+				<textarea id="notes" name="notes"></textarea>
+				
+				<button type="button" onclick="saveBooking()">Save</button>
+				<button type="button" onclick="cancelBooking()">Cancel</button>
+			</form>
+		</div>
+	</div>
+
+    <script src="scripts/scripts.js"></script>
+</body>
+</html>
